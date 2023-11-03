@@ -1,0 +1,64 @@
+.container_1 {
+    min-height: 50vh;
+    margin-block: 0;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    
+    
+  }
+  
+  .container_1 > .row {
+    flex-basis: 100%;
+  }
+  
+  .card-body {
+    padding: 0;
+  }
+  .btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-secondary {
+    background-color: #2415f1;
+    color: #ffffff;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-light {
+    background-color: #2415f1;
+    color: #ffffff;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-warning {
+    background-color: #ff0707;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-block {
+    width: 80%;
+  }
+  
+  #zero-row {
+    margin-top: 0.7rem;
+  }
+  
+  .btn-block#zero {
+    width: 91%;
+  }
+  
+  .btn-group {
+    display: flex;
+  }
+  
+  .btn-group-vertical {
+    gap: 0.5235rem;
+    width: 80%;
+  }
+  
+  .btn-group-vertical > * {
+    width: 100%;
+  }
